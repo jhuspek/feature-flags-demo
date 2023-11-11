@@ -16,7 +16,7 @@ product_data_with_price = [
 
 
 async def list_products():
-    if unleash_manager.unleash.is_enabled("test-feature"):
+    if unleash_manager.unleash.is_enabled("product_with_price"):
         return TypeAdapter(List[schemas.Product]).validate_python(product_data_with_price)
     else:
         return TypeAdapter(List[schemas.Product]).validate_python(product_data)

@@ -1,4 +1,3 @@
-
 # Unleash
 
 http://localhost:4242
@@ -6,6 +5,13 @@ http://localhost:4242
 - **Username**: `admin`
 - **Password**: `unleash4all`
 
+http://localhost:4242/docs/openapi
+
 # FF Demo
 
-http://127.0.0.1:8000/docs
+http://localhost:8080/docs
+
+# Docker Compose
+
+- `cd .\docker-compose\`
+- `docker compose up -d`
