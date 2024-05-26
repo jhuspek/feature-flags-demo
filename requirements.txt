@@ -28,7 +28,7 @@ starlette==0.27.0
 typing_extensions==4.8.0
 tzdata==2023.3
 tzlocal==5.2
-UnleashClient==5.9.1
+UnleashClient==5.12.0
 urllib3==2.0.7
 uvicorn==0.23.2
 watchfiles==0.21.0
