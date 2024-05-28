@@ -2,7 +2,7 @@ services:
 
   feature-flags-demo:
     # pointing into a local docker repository
-    image: feature-flag-demo:latest
+    image: feature-flags-demo:latest
     ports:
       - "8080:8080"
     environment:
